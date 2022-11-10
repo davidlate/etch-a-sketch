@@ -76,7 +76,10 @@ function writeSolid(){
 
 function clearAll(){
     const boxes = document.querySelectorAll('.box');
-    boxes.forEach(box => box.style.backgroundColor = 'white');
+    boxes.forEach(box => {
+        box.style.backgroundColor = 'white'
+        box.classList.remove('filled')
+    });
     state = 'pen';
 }
 
