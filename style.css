@@ -9,13 +9,14 @@
 
 #header{
     height: 50px;
+    font-size: 24pt;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #body-1{
-    height: 500px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +40,13 @@ button{
     background-color: lightblue;
     border-radius: 5px;
     border-color: grey;
+}
+
+button:hover{
+    border-color: purple;
+    border-width: 3px;
+    border-style: solid;
+    scale: 1.05;
 }
 
 

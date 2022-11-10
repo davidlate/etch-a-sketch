@@ -77,6 +77,7 @@ function writeSolid(){
 function clearAll(){
     const boxes = document.querySelectorAll('.box');
     boxes.forEach(box => box.style.backgroundColor = 'white');
+    state = 'pen';
 }
 
 setUpGrid(document.querySelector('#slider').value);
