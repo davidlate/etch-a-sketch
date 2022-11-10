@@ -83,6 +83,5 @@ function clearAll(){
     state = 'pen';
 }
 
-setUpGrid(document.querySelector('#slider').value);
+setUpGrid(3);
 
-console.log(document.querySelector('#slider').value);
